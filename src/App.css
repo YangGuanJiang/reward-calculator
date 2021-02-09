@@ -1,0 +1,16 @@
+.App {
+}
+
+.App-header {
+  position: fixed;
+  background-color: #24292e;
+  height: 100px;
+  width: 100%;
+  color: aliceblue;
+  font-size: 48px;
+  padding: 16px;
+}
+.App-main {
+  font-size: 36px;
+  padding-top: 100px;
+}
