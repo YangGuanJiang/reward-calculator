@@ -43,8 +43,8 @@ function Row(props) {
                             <Table size="small" aria-label="purchases">
                                 <TableHead>
                                     <TableRow>
-                                        <TableCell>Transaction Id</TableCell>
                                         <TableCell>Date</TableCell>
+                                        <TableCell>Transaction Id</TableCell>
                                         <TableCell align="right">Amount ($)</TableCell>
                                     </TableRow>
                                 </TableHead>

@@ -14,7 +14,7 @@ function App() {
     useEffect(() => {
         getTransactionsByCustomId()
             .then(res => {
-                setTransactions(refactorTransactionsWithReward(JSON.parse(res).objects));
+                setTransactions(refactorTransactionsWithReward(res.objects));
             });
     }, [])
 

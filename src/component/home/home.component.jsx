@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -9,16 +9,12 @@ import Paper from '@material-ui/core/Paper';
 
 import {createRow} from '../../shared/ultils/tableUtils';
 
-import moment from 'moment';
-
 import './home.styles.css';
 import Row from "../table-row/table-row.component";
 
 const Home = ({transactions}) => {
 
     const [tableHead,rows] = createRow(transactions);
-
-    console.log(tableHead,rows);
 
     return (
         <div className='Home-table'>

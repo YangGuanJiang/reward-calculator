@@ -1,4 +1,4 @@
-export const mockData = JSON.stringify({
+{
 "objects":[
 {
 "customId":"298297",
@@ -6000,4 +6000,4 @@ export const mockData = JSON.stringify({
 "transactionAmount":"853.45",
 "transactionDate":"Saturday, January 30, 2021 5:44 AM"
 }
-]})
+]}

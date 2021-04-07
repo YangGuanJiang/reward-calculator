@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 
-import {BsQuestionCircle} from 'react-icons/bs';
-
 const Header = () => {
 
     return(
